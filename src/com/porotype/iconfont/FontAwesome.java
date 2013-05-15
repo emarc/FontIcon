@@ -32,8 +32,7 @@ public class FontAwesome {
     public static final String CDN = "//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css";
 
     public static void load() {
-        load(new ExternalResource(Page.getCurrent().getLocation().getScheme()
-                + ":" + CDN));
+        load(new ExternalResource(CDN));
     }
 
     /**
